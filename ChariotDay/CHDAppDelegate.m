@@ -7,8 +7,11 @@
 //
 
 #import "CHDAppDelegate.h"
-
 #import "CHDViewController.h"
+
+#if RUN_KIF_TESTS
+#import "CHDTestRunner.h"
+#endif
 
 @implementation CHDAppDelegate
 
@@ -19,9 +22,16 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-  self.viewController = [[CHDViewController alloc] initWithNibName:@"CHDViewController" bundle:nil];
-  self.window.rootViewController = self.viewController;
+    self.viewController = [[CHDViewController alloc] initWithNibName:@"CHDViewController" bundle:nil];
+    self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+  
+#if RUN_KIF_TESTS
+  [[CHDTestRunner sharedInstance] startTestingWithCompletionBlock:^{
+    // Exit after the tests complete so that CI knows we're done
+    exit([[CHDTestRunner sharedInstance] failureCount]);
+  }];
+#endif  
     return YES;
 }
 

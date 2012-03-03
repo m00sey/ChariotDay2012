@@ -15,22 +15,53 @@
 		5E46F31E1501BA0E003E84CB /* CHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E46F31D1501BA0E003E84CB /* CHDAppDelegate.m */; };
 		5E46F3211501BA0E003E84CB /* CHDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E46F3201501BA0E003E84CB /* CHDViewController.m */; };
 		5E46F3241501BA0E003E84CB /* CHDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E46F3221501BA0E003E84CB /* CHDViewController.xib */; };
+		5E46F33E1501BB6F003E84CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E46F3191501BA0E003E84CB /* main.m */; };
+		5E46F33F1501BB6F003E84CB /* CHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E46F31D1501BA0E003E84CB /* CHDAppDelegate.m */; };
+		5E46F3401501BB6F003E84CB /* CHDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E46F3201501BA0E003E84CB /* CHDViewController.m */; };
+		5E46F3421501BB6F003E84CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E46F30D1501BA0E003E84CB /* UIKit.framework */; };
+		5E46F3431501BB6F003E84CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E46F30F1501BA0E003E84CB /* Foundation.framework */; };
+		5E46F3441501BB6F003E84CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E46F3111501BA0E003E84CB /* CoreGraphics.framework */; };
+		5E46F3461501BB6F003E84CB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E46F3161501BA0E003E84CB /* InfoPlist.strings */; };
+		5E46F3471501BB6F003E84CB /* CHDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E46F3221501BA0E003E84CB /* CHDViewController.xib */; };
+		5E46F34E1501BB96003E84CB /* libKIF.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E46F33B1501BB59003E84CB /* libKIF.a */; };
+		5E46F3531501BC65003E84CB /* CHDTestRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E46F3521501BC65003E84CB /* CHDTestRunner.m */; };
+		5E46F3571501C0F6003E84CB /* KIFTestScenario+CHDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E46F3561501C0F6003E84CB /* KIFTestScenario+CHDAdditions.m */; };
+		5E46F36D15025CDC003E84CB /* KIFTestStep+CHDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E46F36C15025CDC003E84CB /* KIFTestStep+CHDAdditions.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E46F33A1501BB59003E84CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E46F3331501BB59003E84CB /* KIF.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AAB07268139719AC008AF393;
+			remoteInfo = KIF;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5E46F3091501BA0E003E84CB /* ChariotDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChariotDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E46F30D1501BA0E003E84CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5E46F30F1501BA0E003E84CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E46F3111501BA0E003E84CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5E46F3151501BA0E003E84CB /* ChariotDay-Info.plist */ = {isa = PBXFileReference; path = "ChariotDay-Info.plist"; sourceTree = "<group>"; };
+		5E46F3151501BA0E003E84CB /* ChariotDay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChariotDay-Info.plist"; sourceTree = "<group>"; };
 		5E46F3171501BA0E003E84CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E46F3191501BA0E003E84CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5E46F31B1501BA0E003E84CB /* ChariotDay-Prefix.pch */ = {isa = PBXFileReference; path = "ChariotDay-Prefix.pch"; sourceTree = "<group>"; };
-		5E46F31C1501BA0E003E84CB /* CHDAppDelegate.h */ = {isa = PBXFileReference; path = CHDAppDelegate.h; sourceTree = "<group>"; };
+		5E46F31B1501BA0E003E84CB /* ChariotDay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChariotDay-Prefix.pch"; sourceTree = "<group>"; };
+		5E46F31C1501BA0E003E84CB /* CHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHDAppDelegate.h; sourceTree = "<group>"; };
 		5E46F31D1501BA0E003E84CB /* CHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHDAppDelegate.m; sourceTree = "<group>"; };
-		5E46F31F1501BA0E003E84CB /* CHDViewController.h */ = {isa = PBXFileReference; path = CHDViewController.h; sourceTree = "<group>"; };
+		5E46F31F1501BA0E003E84CB /* CHDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CHDViewController.h; sourceTree = "<group>"; };
 		5E46F3201501BA0E003E84CB /* CHDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CHDViewController.m; sourceTree = "<group>"; };
 		5E46F3231501BA0E003E84CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CHDViewController.xib; sourceTree = "<group>"; };
+		5E46F3331501BB59003E84CB /* KIF.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KIF.xcodeproj; path = Frameworks/KIF/KIF.xcodeproj; sourceTree = "<group>"; };
+		5E46F34B1501BB6F003E84CB /* CDKif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDKif.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E46F34D1501BB6F003E84CB /* ChariotDay KIF-Info.plist */ = {isa = PBXFileReference; name = "ChariotDay KIF-Info.plist"; path = "/Users/m00sey/Desktop/ChariotDay/ChariotDay KIF-Info.plist"; sourceTree = "<absolute>"; };
+		5E46F3511501BC65003E84CB /* CHDTestRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHDTestRunner.h; sourceTree = "<group>"; };
+		5E46F3521501BC65003E84CB /* CHDTestRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHDTestRunner.m; sourceTree = "<group>"; };
+		5E46F3551501C0F6003E84CB /* KIFTestScenario+CHDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestScenario+CHDAdditions.h"; sourceTree = "<group>"; };
+		5E46F3561501C0F6003E84CB /* KIFTestScenario+CHDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestScenario+CHDAdditions.m"; sourceTree = "<group>"; };
+		5E46F36B15025CDC003E84CB /* KIFTestStep+CHDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KIFTestStep+CHDAdditions.h"; sourceTree = "<group>"; };
+		5E46F36C15025CDC003E84CB /* KIFTestStep+CHDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KIFTestStep+CHDAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +75,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5E46F3411501BB6F003E84CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E46F34E1501BB96003E84CB /* libKIF.a in Frameworks */,
+				5E46F3421501BB6F003E84CB /* UIKit.framework in Frameworks */,
+				5E46F3431501BB6F003E84CB /* Foundation.framework in Frameworks */,
+				5E46F3441501BB6F003E84CB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -53,6 +95,8 @@
 				5E46F3131501BA0E003E84CB /* ChariotDay */,
 				5E46F30C1501BA0E003E84CB /* Frameworks */,
 				5E46F30A1501BA0E003E84CB /* Products */,
+				5E46F3331501BB59003E84CB /* KIF.xcodeproj */,
+				5E46F34D1501BB6F003E84CB /* ChariotDay KIF-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5E46F3091501BA0E003E84CB /* ChariotDay.app */,
+				5E46F34B1501BB6F003E84CB /* CDKif.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +122,7 @@
 		5E46F3131501BA0E003E84CB /* ChariotDay */ = {
 			isa = PBXGroup;
 			children = (
+				5E46F34F1501BC2A003E84CB /* KIF */,
 				5E46F31C1501BA0E003E84CB /* CHDAppDelegate.h */,
 				5E46F31D1501BA0E003E84CB /* CHDAppDelegate.m */,
 				5E46F31F1501BA0E003E84CB /* CHDViewController.h */,
@@ -96,6 +142,51 @@
 				5E46F31B1501BA0E003E84CB /* ChariotDay-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E46F3341501BB59003E84CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E46F33B1501BB59003E84CB /* libKIF.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E46F34F1501BC2A003E84CB /* KIF */ = {
+			isa = PBXGroup;
+			children = (
+				5E46F36A15025CBC003E84CB /* Steps */,
+				5E46F3541501C0D8003E84CB /* Scenarios */,
+				5E46F3501501BC37003E84CB /* Test Runner */,
+			);
+			name = KIF;
+			sourceTree = "<group>";
+		};
+		5E46F3501501BC37003E84CB /* Test Runner */ = {
+			isa = PBXGroup;
+			children = (
+				5E46F3511501BC65003E84CB /* CHDTestRunner.h */,
+				5E46F3521501BC65003E84CB /* CHDTestRunner.m */,
+			);
+			name = "Test Runner";
+			sourceTree = "<group>";
+		};
+		5E46F3541501C0D8003E84CB /* Scenarios */ = {
+			isa = PBXGroup;
+			children = (
+				5E46F3551501C0F6003E84CB /* KIFTestScenario+CHDAdditions.h */,
+				5E46F3561501C0F6003E84CB /* KIFTestScenario+CHDAdditions.m */,
+			);
+			name = Scenarios;
+			sourceTree = "<group>";
+		};
+		5E46F36A15025CBC003E84CB /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				5E46F36B15025CDC003E84CB /* KIFTestStep+CHDAdditions.h */,
+				5E46F36C15025CDC003E84CB /* KIFTestStep+CHDAdditions.m */,
+			);
+			name = Steps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +209,23 @@
 			productReference = 5E46F3091501BA0E003E84CB /* ChariotDay.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5E46F33C1501BB6F003E84CB /* ChariotDay KIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E46F3481501BB6F003E84CB /* Build configuration list for PBXNativeTarget "ChariotDay KIF" */;
+			buildPhases = (
+				5E46F33D1501BB6F003E84CB /* Sources */,
+				5E46F3411501BB6F003E84CB /* Frameworks */,
+				5E46F3451501BB6F003E84CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChariotDay KIF";
+			productName = ChariotDay;
+			productReference = 5E46F34B1501BB6F003E84CB /* CDKif.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -136,12 +244,29 @@
 			mainGroup = 5E46F2FE1501BA0E003E84CB;
 			productRefGroup = 5E46F30A1501BA0E003E84CB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5E46F3341501BB59003E84CB /* Products */;
+					ProjectRef = 5E46F3331501BB59003E84CB /* KIF.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5E46F3081501BA0E003E84CB /* ChariotDay */,
+				5E46F33C1501BB6F003E84CB /* ChariotDay KIF */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5E46F33B1501BB59003E84CB /* libKIF.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKIF.a;
+			remoteRef = 5E46F33A1501BB59003E84CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5E46F3071501BA0E003E84CB /* Resources */ = {
@@ -150,6 +275,15 @@
 			files = (
 				5E46F3181501BA0E003E84CB /* InfoPlist.strings in Resources */,
 				5E46F3241501BA0E003E84CB /* CHDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E46F3451501BB6F003E84CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E46F3461501BB6F003E84CB /* InfoPlist.strings in Resources */,
+				5E46F3471501BB6F003E84CB /* CHDViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +297,19 @@
 				5E46F31A1501BA0E003E84CB /* main.m in Sources */,
 				5E46F31E1501BA0E003E84CB /* CHDAppDelegate.m in Sources */,
 				5E46F3211501BA0E003E84CB /* CHDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E46F33D1501BB6F003E84CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E46F33E1501BB6F003E84CB /* main.m in Sources */,
+				5E46F33F1501BB6F003E84CB /* CHDAppDelegate.m in Sources */,
+				5E46F3401501BB6F003E84CB /* CHDViewController.m in Sources */,
+				5E46F3531501BC65003E84CB /* CHDTestRunner.m in Sources */,
+				5E46F3571501C0F6003E84CB /* KIFTestScenario+CHDAdditions.m in Sources */,
+				5E46F36D15025CDC003E84CB /* KIFTestStep+CHDAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +402,51 @@
 			};
 			name = Release;
 		};
+		5E46F3491501BB6F003E84CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChariotDay/ChariotDay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"RUN_KIF_TESTS=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Frameworks/KIF/**",
+				);
+				INFOPLIST_FILE = "ChariotDay KIF-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = CDKif;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5E46F34A1501BB6F003E84CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChariotDay/ChariotDay-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Frameworks/KIF/**",
+				);
+				INFOPLIST_FILE = "ChariotDay KIF-Info.plist";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = CDKif;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -272,6 +464,14 @@
 			buildConfigurations = (
 				5E46F3281501BA0E003E84CB /* Debug */,
 				5E46F3291501BA0E003E84CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E46F3481501BB6F003E84CB /* Build configuration list for PBXNativeTarget "ChariotDay KIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E46F3491501BB6F003E84CB /* Debug */,
+				5E46F34A1501BB6F003E84CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
